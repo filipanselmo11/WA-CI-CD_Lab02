@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     container: node:18
     steps:
+      - uses: actions/checkout@v3
       - run: node --version
       - run: npm --version
-      - uses: actions/checkout@v3
-      - run: npm install
-      - run: npm install --save moment
-      - run: node src/app.js
+      - run: cd lab02_1 && npm install
+      - run: cd lab02_1 && npm install --save moment
+      - run: cd lab02_1 && node src/app.js
