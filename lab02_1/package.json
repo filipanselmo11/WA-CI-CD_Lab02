@@ -1,0 +1,7 @@
+{
+  "name": "Exemplo",
+  "main": "src/app.js",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}

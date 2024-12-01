@@ -1,0 +1,5 @@
+console.log("Exemplo simples");
+
+const moment = require('moment');
+const date = moment().format('LL');
+console.log(date);
